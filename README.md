@@ -20,20 +20,20 @@ A comprehensive, end-to-end business intelligence and data analytics project mod
 ## Project Structure
 
 ```text
+├── .github/workflows/      
 ├── charts/                 
 ├── data/                   
 ├── exports/                
-├── notebook/
-│   └── SaaS_Analysis.ipynb 
-├── sql/
-│   ├── saas_mysql_dump.sql        
-│   └── analysis_queries_mysql.sql 
-├── Python/
-│   ├── generate_data.py           
-│   ├── build_database.py          
-│   └── build_excel.py             
+├── README.md               
+├── SaaS_Analysis.ipynb     
 ├── SaaS_Dashboard.xlsx     
-└── README.md               
+├── analysis_queries_mysql.sql 
+├── build_database.py       
+├── build_excel.py          
+├── build_mysql_dump.py     
+├── generate_data.py        
+├── saas.db                 
+└── saas_mysql_dump.sql     
 ```
 
 ## How to Run It
