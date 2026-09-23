@@ -1,4 +1,3 @@
-"""Loads the generated CSVs into a single SQLite database: saas.db"""
 import sqlite3
 import pandas as pd
 
