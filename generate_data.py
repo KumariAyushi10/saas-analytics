@@ -1,12 +1,3 @@
-"""
-Generates a synthetic but realistic SaaS company dataset:
- - customers.csv      : one row per customer (company)
- - subscriptions.csv  : one row per subscription period (plan, MRR, start/end)
- - payments.csv        : one row per monthly payment/invoice
- - usage.csv           : one row per customer per month (product usage/engagement)
-
-24 months of history, ~600 customers, realistic churn, upgrades/downgrades.
-"""
 import random
 import numpy as np
 import pandas as pd
@@ -20,7 +11,7 @@ Faker.seed(42)
 
 N_CUSTOMERS = 600
 START_MONTH = date(2024, 1, 1)
-N_MONTHS = 24  # Jan 2024 - Dec 2025
+N_MONTHS = 24  
 
 PLANS = {
     "Starter":    {"price": 29,  "weight": 0.45},
@@ -41,10 +32,10 @@ def month_add(d: date, n: int) -> date:
 
 months = [month_add(START_MONTH, i) for i in range(N_MONTHS)]
 
-# ---------- customers.csv ----------
+
 customers = []
 for i in range(1, N_CUSTOMERS + 1):
-    signup_month_idx = int(np.random.beta(1.6, 2.2) * (N_MONTHS - 1))  # more signups early/mid
+    signup_month_idx = int(np.random.beta(1.6, 2.2) * (N_MONTHS - 1))  
     signup_date = months[signup_month_idx]
     plan = random.choices(list(PLANS.keys()), weights=[p["weight"] for p in PLANS.values()])[0]
     customers.append({
@@ -59,8 +50,7 @@ for i in range(1, N_CUSTOMERS + 1):
     })
 customers_df = pd.DataFrame(customers)
 
-# ---------- churn model ----------
-# monthly churn hazard varies by plan (enterprise churns less) and grows slightly with tenure risk early on
+
 BASE_HAZARD = {"Starter": 0.045, "Growth": 0.028, "Enterprise": 0.014}
 
 subscriptions = []
@@ -83,12 +73,12 @@ for c in customers:
         cur_month = months[m_idx]
         tenure = m_idx - signup_idx
 
-        # small chance of upgrade after 6+ months if still Starter/Growth
+        
         if tenure == 6 and plan != "Enterprise" and random.random() < 0.18:
             plan = "Growth" if plan == "Starter" else "Enterprise"
             plan_price = PLANS[plan]["price"]
 
-        # usage / engagement (drives churn risk)
+        
         base_logins = {"Starter": 8, "Growth": 20, "Enterprise": 45}[plan]
         engagement_noise = np.random.normal(1.0, 0.35)
         logins = max(0, int(base_logins * engagement_noise))
@@ -106,7 +96,7 @@ for c in customers:
             "plan_at_time": plan,
         })
 
-        # payment for the month (if active)
+        
         payments.append({
             "payment_id": f"PAY{pay_counter:06d}",
             "customer_id": cust_id,
@@ -116,13 +106,13 @@ for c in customers:
         })
         pay_counter += 1
 
-        # churn hazard: higher if low engagement, slightly declines with tenure (survivorship)
+        
         hazard = BASE_HAZARD[plan]
         if logins < base_logins * 0.4:
             hazard *= 2.2
         if nps < 0:
             hazard *= 1.6
-        hazard *= max(0.6, 1 - tenure * 0.01)  # loyal long-tenure customers churn a bit less
+        hazard *= max(0.6, 1 - tenure * 0.01)  
 
         if tenure >= 1 and random.random() < hazard:
             active = False
