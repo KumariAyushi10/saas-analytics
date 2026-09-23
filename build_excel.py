@@ -1,4 +1,3 @@
-"""Builds SaaS_Dashboard.xlsx from the CSVs exported by the Jupyter notebook."""
 import pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
@@ -46,7 +45,7 @@ def write_df(ws, df, start_row=1, start_col=1):
     return start_row + 1 + len(df)  # next free row
 
 
-# ---------- Data sheets (raw values from the notebook exports) ----------
+
 mrr_df = pd.read_csv("exports/mrr_by_month.csv")
 churn_df = pd.read_csv("exports/churn_by_month.csv")
 plan_df = pd.read_csv("exports/plan_summary.csv")
@@ -58,7 +57,7 @@ ws_mrr = wb.active
 ws_mrr.title = "MRR_by_Month"
 last_row = write_df(ws_mrr, mrr_df[["month", "mrr"]])
 autosize(ws_mrr, 3)
-# Recompute MoM growth with a real formula instead of hardcoding the pandas value
+
 ws_mrr.cell(row=1, column=3, value="mom_growth_pct")
 style_header_row(ws_mrr, row=1, ncols=3)
 for r in range(2, last_row):
@@ -103,7 +102,7 @@ autosize(ws_risk, 6, width=18)
 for r in range(2, last_row):
     ws_risk.cell(row=r, column=4).number_format = "$#,##0"
 
-# ---------- Dashboard sheet (front page, KPIs + charts, all formula-driven) ----------
+
 ws = wb.create_sheet("Dashboard", 0)
 ws.sheet_view.showGridLines = False
 ws.column_dimensions["A"].width = 3
@@ -116,7 +115,7 @@ ws["B3"] = "Synthetic dataset · Jan 2024 - Dec 2025 · Source: notebook exports
 ws["B3"].font = SUBTITLE_FONT
 
 n_mrr_rows = len(mrr_df)
-last_mrr_row = 1 + n_mrr_rows  # header + rows
+last_mrr_row = 1 + n_mrr_rows  
 n_churn_rows = len(churn_df)
 last_churn_row = 1 + n_churn_rows
 
