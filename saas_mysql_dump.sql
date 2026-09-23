@@ -1,9 +1,3 @@
--- ============================================================
--- SaaS demo database - MySQL version
--- Run this whole script in MySQL Workbench (File > Run SQL Script,
--- or select-all + Execute) to create and populate the database.
--- ============================================================
-
 DROP DATABASE IF EXISTS saas;
 CREATE DATABASE saas;
 USE saas;
