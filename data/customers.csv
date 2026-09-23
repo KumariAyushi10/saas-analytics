@@ -1,0 +1,601 @@
+customer_id,company_name,industry,country,employee_size,acquisition_channel,signup_date,initial_plan
+CUST0001,"Rodriguez, Figueroa and Sanchez",E-commerce,Germany,25,Paid Ads,2025-01-01,Growth
+CUST0002,Doyle Ltd,FinTech,Singapore,5,Outbound Sales,2024-10-01,Starter
+CUST0003,"Mcclain, Miller and Henderson",E-commerce,United Kingdom,25,Paid Ads,2025-01-01,Starter
+CUST0004,Davis and Sons,E-commerce,Singapore,25,Partner,2024-06-01,Growth
+CUST0005,"Guzman, Hoffman and Baldwin",Logistics,France,25,Content Marketing,2025-08-01,Growth
+CUST0006,"Gardner, Robinson and Lawrence",E-commerce,India,250,Referral,2024-04-01,Growth
+CUST0007,Blake and Sons,EdTech,Australia,5,Organic Search,2025-05-01,Starter
+CUST0008,"Henderson, Ramirez and Lewis",Real Estate,Australia,50,Organic Search,2024-07-01,Starter
+CUST0009,Garcia-James,Logistics,United Kingdom,250,Organic Search,2024-08-01,Growth
+CUST0010,Abbott-Munoz,SaaS/Tech,Australia,25,Partner,2025-03-01,Growth
+CUST0011,Blair PLC,EdTech,Germany,5,Paid Ads,2025-07-01,Starter
+CUST0012,Dudley Group,Manufacturing,Germany,500,Partner,2024-08-01,Enterprise
+CUST0013,Arnold Ltd,Healthcare,Australia,100,Paid Ads,2024-11-01,Enterprise
+CUST0014,"Mcclure, Ward and Lee",FinTech,Netherlands,10,Outbound Sales,2024-10-01,Growth
+CUST0015,Williams and Sons,Healthcare,Brazil,250,Referral,2025-01-01,Growth
+CUST0016,Galloway-Wyatt,Logistics,Canada,100,Organic Search,2024-11-01,Enterprise
+CUST0017,James Group,E-commerce,Australia,250,Referral,2024-09-01,Starter
+CUST0018,"Flowers, Martin and Kelly",SaaS/Tech,Australia,25,Partner,2025-05-01,Starter
+CUST0019,"Adams, Zuniga and Wong",Media,India,50,Paid Ads,2024-10-01,Growth
+CUST0020,"Reid, Ferguson and Sanchez",Logistics,Singapore,50,Partner,2024-06-01,Starter
+CUST0021,Gray-Mayo,SaaS/Tech,France,100,Paid Ads,2025-02-01,Growth
+CUST0022,"Watts, Robinson and Nguyen",Healthcare,Singapore,500,Organic Search,2024-07-01,Enterprise
+CUST0023,Perez Inc,FinTech,India,10,Partner,2025-04-01,Growth
+CUST0024,Morales-Jones,FinTech,France,250,Outbound Sales,2024-09-01,Starter
+CUST0025,"Walter, Edwards and Rios",Logistics,Germany,1000,Organic Search,2025-03-01,Enterprise
+CUST0026,Wilkerson-Day,FinTech,Singapore,50,Partner,2024-05-01,Growth
+CUST0027,Baker and Sons,Marketing,France,10,Content Marketing,2024-11-01,Starter
+CUST0028,"Hoffman, Baker and Richards",Marketing,Singapore,10,Outbound Sales,2025-05-01,Starter
+CUST0029,"Ross, Robinson and Bright",Marketing,Singapore,25,Paid Ads,2024-07-01,Enterprise
+CUST0030,"Snyder, Campos and Callahan",Healthcare,Singapore,1000,Organic Search,2025-06-01,Starter
+CUST0031,Burton Ltd,Media,USA,5,Referral,2024-08-01,Growth
+CUST0032,Carlson-Cruz,Marketing,Canada,1,Paid Ads,2024-11-01,Enterprise
+CUST0033,"Ferrell, Rice and Maddox",FinTech,United Kingdom,500,Organic Search,2025-07-01,Enterprise
+CUST0034,Frazier Inc,Logistics,India,10,Partner,2024-09-01,Enterprise
+CUST0035,"Dyer, Potter and Mack",Logistics,India,50,Outbound Sales,2025-07-01,Growth
+CUST0036,Rodriguez-Graham,Manufacturing,Canada,1000,Partner,2024-07-01,Enterprise
+CUST0037,Smith-Bowen,Marketing,France,100,Content Marketing,2024-08-01,Growth
+CUST0038,"Baker, Mason and White",Media,United Kingdom,25,Paid Ads,2024-06-01,Enterprise
+CUST0039,Harrell LLC,E-commerce,Netherlands,1000,Paid Ads,2025-03-01,Starter
+CUST0040,"Romero, Gonzalez and Brooks",E-commerce,United Kingdom,1,Paid Ads,2025-02-01,Growth
+CUST0041,Ryan PLC,E-commerce,Australia,5,Outbound Sales,2025-07-01,Starter
+CUST0042,George Group,Media,Canada,1000,Paid Ads,2024-06-01,Starter
+CUST0043,Rodriguez LLC,SaaS/Tech,Netherlands,500,Paid Ads,2024-11-01,Growth
+CUST0044,Allen-Allen,Manufacturing,Canada,5,Organic Search,2024-10-01,Growth
+CUST0045,"Arroyo, Miller and Tucker",Real Estate,France,250,Content Marketing,2024-11-01,Growth
+CUST0046,Spence PLC,E-commerce,United Kingdom,1,Content Marketing,2025-02-01,Enterprise
+CUST0047,Anderson Group,FinTech,Canada,25,Paid Ads,2024-10-01,Growth
+CUST0048,"Martin, Rose and Obrien",Healthcare,France,10,Referral,2024-03-01,Growth
+CUST0049,Hickman Ltd,FinTech,Brazil,1000,Organic Search,2025-04-01,Growth
+CUST0050,"Harris, Collins and Carney",Logistics,USA,5,Paid Ads,2024-10-01,Starter
+CUST0051,"Brooks, Lam and Hayes",Media,Brazil,25,Content Marketing,2025-01-01,Starter
+CUST0052,Walker LLC,Healthcare,France,1,Content Marketing,2024-06-01,Enterprise
+CUST0053,Chapman and Sons,Media,Germany,250,Partner,2024-11-01,Starter
+CUST0054,"Robinson, Jones and Welch",Logistics,Brazil,10,Paid Ads,2025-01-01,Enterprise
+CUST0055,Jones Inc,E-commerce,Netherlands,1000,Organic Search,2024-10-01,Starter
+CUST0056,Jones-Young,E-commerce,USA,500,Outbound Sales,2025-01-01,Growth
+CUST0057,"Washington, Ryan and Cummings",Logistics,India,1,Outbound Sales,2024-11-01,Enterprise
+CUST0058,"Johnston, Sanchez and Kennedy",Healthcare,United Kingdom,5,Partner,2025-01-01,Starter
+CUST0059,Lee-Davis,Manufacturing,United Kingdom,25,Outbound Sales,2024-03-01,Enterprise
+CUST0060,Gomez-Jenkins,SaaS/Tech,United Kingdom,250,Partner,2024-07-01,Growth
+CUST0061,"Brown, Valdez and Lucas",Logistics,Australia,50,Paid Ads,2024-10-01,Growth
+CUST0062,Powell LLC,Real Estate,Canada,50,Content Marketing,2024-03-01,Growth
+CUST0063,Wright and Sons,Marketing,Brazil,100,Organic Search,2024-12-01,Starter
+CUST0064,"West, Henderson and Ramirez",SaaS/Tech,Netherlands,5,Organic Search,2024-10-01,Starter
+CUST0065,Baxter Inc,Logistics,Germany,10,Referral,2024-12-01,Growth
+CUST0066,Morton-Chase,EdTech,Australia,50,Paid Ads,2024-07-01,Enterprise
+CUST0067,Williams PLC,Logistics,Germany,1000,Organic Search,2025-10-01,Starter
+CUST0068,Novak and Sons,Logistics,Germany,5,Paid Ads,2024-05-01,Growth
+CUST0069,Russell Group,FinTech,Singapore,10,Referral,2024-04-01,Starter
+CUST0070,Hancock Inc,EdTech,Australia,25,Partner,2025-01-01,Starter
+CUST0071,Gray Group,Marketing,Singapore,500,Referral,2025-02-01,Growth
+CUST0072,House-Glover,E-commerce,United Kingdom,250,Referral,2024-07-01,Enterprise
+CUST0073,Henderson-Bernard,Real Estate,India,50,Paid Ads,2025-04-01,Starter
+CUST0074,"Stanley, Tucker and Lee",Logistics,France,1000,Organic Search,2024-12-01,Growth
+CUST0075,Novak PLC,Healthcare,Singapore,1,Referral,2024-07-01,Starter
+CUST0076,"Daniels, Adkins and Brown",Healthcare,France,10,Organic Search,2024-10-01,Growth
+CUST0077,"Woods, Calhoun and Schmidt",E-commerce,Australia,25,Partner,2024-05-01,Starter
+CUST0078,Yu Inc,FinTech,Australia,1000,Content Marketing,2025-11-01,Starter
+CUST0079,Jones Inc,Healthcare,Canada,10,Paid Ads,2024-02-01,Enterprise
+CUST0080,"Hensley, Powell and David",E-commerce,India,100,Content Marketing,2024-02-01,Enterprise
+CUST0081,"Sanchez, Wheeler and Harvey",EdTech,Germany,10,Partner,2024-06-01,Enterprise
+CUST0082,Sandoval-Cunningham,E-commerce,Brazil,25,Paid Ads,2024-12-01,Starter
+CUST0083,Donovan-Harris,Media,Australia,50,Paid Ads,2024-04-01,Enterprise
+CUST0084,"Edwards, Baker and Anderson",EdTech,France,100,Referral,2024-04-01,Starter
+CUST0085,"Evans, Stewart and Walton",Marketing,Australia,1000,Content Marketing,2024-11-01,Enterprise
+CUST0086,Smith PLC,Logistics,Australia,1,Organic Search,2024-09-01,Growth
+CUST0087,"Ferrell, Jones and Lewis",Marketing,India,50,Organic Search,2024-10-01,Enterprise
+CUST0088,Anderson-Bailey,Manufacturing,Australia,100,Content Marketing,2025-03-01,Starter
+CUST0089,Suarez LLC,Logistics,United Kingdom,250,Outbound Sales,2024-07-01,Growth
+CUST0090,Moore-Bass,E-commerce,France,1,Outbound Sales,2024-08-01,Starter
+CUST0091,"Turner, Riggs and Roman",Logistics,Canada,100,Content Marketing,2024-06-01,Enterprise
+CUST0092,"Smith, Montoya and Evans",Real Estate,Netherlands,100,Partner,2024-09-01,Starter
+CUST0093,"Garcia, Humphrey and Baker",Marketing,Singapore,50,Partner,2024-09-01,Enterprise
+CUST0094,Newton and Sons,Manufacturing,Germany,1000,Paid Ads,2025-01-01,Starter
+CUST0095,Campbell-Clark,Manufacturing,India,50,Content Marketing,2025-02-01,Starter
+CUST0096,Harris-Walters,E-commerce,Germany,50,Paid Ads,2025-01-01,Growth
+CUST0097,Wagner-King,SaaS/Tech,Netherlands,100,Content Marketing,2024-03-01,Starter
+CUST0098,Davis Group,EdTech,Singapore,500,Partner,2024-08-01,Starter
+CUST0099,Williams-Cook,FinTech,Germany,1000,Partner,2024-06-01,Starter
+CUST0100,Walsh LLC,Real Estate,United Kingdom,25,Partner,2024-09-01,Growth
+CUST0101,Figueroa PLC,EdTech,India,1,Organic Search,2025-06-01,Starter
+CUST0102,"Patterson, Smith and Jones",Media,Netherlands,5,Content Marketing,2024-05-01,Starter
+CUST0103,"Mckee, Gardner and Davenport",SaaS/Tech,Canada,250,Content Marketing,2024-06-01,Starter
+CUST0104,"Tran, Jordan and Williams",Healthcare,USA,5,Content Marketing,2024-09-01,Starter
+CUST0105,Nolan-Flynn,Logistics,Brazil,1,Outbound Sales,2024-07-01,Starter
+CUST0106,Nolan and Sons,FinTech,Brazil,10,Content Marketing,2024-06-01,Starter
+CUST0107,"Wright, Garcia and Deleon",Logistics,Netherlands,100,Content Marketing,2024-11-01,Growth
+CUST0108,Dickson-Brady,Logistics,France,1000,Content Marketing,2024-10-01,Growth
+CUST0109,Hancock and Sons,Media,Brazil,50,Paid Ads,2024-06-01,Enterprise
+CUST0110,Johnson-Doyle,Marketing,Singapore,500,Partner,2024-02-01,Enterprise
+CUST0111,Patton-Jenkins,Media,United Kingdom,50,Paid Ads,2025-05-01,Starter
+CUST0112,"Shields, Cochran and Adams",Real Estate,Singapore,5,Paid Ads,2024-06-01,Starter
+CUST0113,"Rodriguez, Brennan and Garrison",Manufacturing,India,25,Organic Search,2025-08-01,Starter
+CUST0114,Gonzalez Group,Real Estate,Singapore,500,Content Marketing,2025-06-01,Starter
+CUST0115,Torres-Pope,Manufacturing,France,1,Outbound Sales,2025-01-01,Starter
+CUST0116,Walker Ltd,E-commerce,Australia,50,Content Marketing,2024-04-01,Starter
+CUST0117,Ross LLC,Manufacturing,Singapore,1000,Outbound Sales,2024-05-01,Enterprise
+CUST0118,Rasmussen LLC,Media,Canada,50,Content Marketing,2024-10-01,Enterprise
+CUST0119,May-Ross,Manufacturing,Australia,250,Partner,2024-06-01,Growth
+CUST0120,"Rivera, Johnson and Wiley",Media,India,1000,Organic Search,2024-08-01,Starter
+CUST0121,White-Estes,SaaS/Tech,Netherlands,1,Organic Search,2024-02-01,Enterprise
+CUST0122,Johnson-Carlson,Healthcare,Brazil,10,Organic Search,2025-04-01,Growth
+CUST0123,Chandler-Edwards,Real Estate,Canada,500,Referral,2024-12-01,Starter
+CUST0124,"Joyce, Wilson and Lam",Manufacturing,Germany,250,Referral,2024-08-01,Starter
+CUST0125,Scott Ltd,Media,USA,1000,Organic Search,2025-09-01,Enterprise
+CUST0126,Smith-Frost,Real Estate,Canada,5,Partner,2024-06-01,Enterprise
+CUST0127,"Mcdaniel, Bentley and Mclaughlin",E-commerce,Canada,25,Organic Search,2025-09-01,Starter
+CUST0128,Diaz Inc,EdTech,India,500,Partner,2024-02-01,Growth
+CUST0129,"Mccall, Hanson and Alvarado",EdTech,Brazil,50,Referral,2024-01-01,Starter
+CUST0130,Cortez LLC,SaaS/Tech,United Kingdom,10,Referral,2025-04-01,Starter
+CUST0131,"Parker, Ortiz and Powell",E-commerce,Germany,250,Content Marketing,2024-06-01,Starter
+CUST0132,Spencer-Lee,EdTech,United Kingdom,25,Organic Search,2024-11-01,Enterprise
+CUST0133,"Bentley, Byrd and Orr",Marketing,Netherlands,5,Outbound Sales,2025-02-01,Growth
+CUST0134,"Carroll, Sullivan and Bass",Real Estate,Singapore,250,Partner,2025-05-01,Growth
+CUST0135,Mitchell-Jordan,Logistics,Australia,1,Content Marketing,2024-06-01,Starter
+CUST0136,"Lawson, Morris and Ramos",FinTech,France,100,Partner,2024-10-01,Enterprise
+CUST0137,"Lewis, Kennedy and Santana",Media,India,250,Paid Ads,2024-09-01,Enterprise
+CUST0138,"Jackson, Miller and Robertson",Marketing,Netherlands,1000,Content Marketing,2024-02-01,Growth
+CUST0139,"Harvey, Davis and Crane",SaaS/Tech,Germany,100,Paid Ads,2024-11-01,Growth
+CUST0140,Chambers and Sons,FinTech,Germany,500,Paid Ads,2025-02-01,Enterprise
+CUST0141,Hernandez Inc,SaaS/Tech,Netherlands,250,Referral,2025-01-01,Growth
+CUST0142,Riggs PLC,Real Estate,India,500,Paid Ads,2024-11-01,Starter
+CUST0143,Gibson Ltd,Marketing,Australia,50,Outbound Sales,2025-01-01,Starter
+CUST0144,"Lee, Horton and Snyder",Marketing,Singapore,1,Outbound Sales,2025-02-01,Growth
+CUST0145,Hernandez Ltd,FinTech,Canada,250,Content Marketing,2024-05-01,Enterprise
+CUST0146,Stafford Inc,EdTech,Brazil,500,Content Marketing,2025-08-01,Growth
+CUST0147,Robinson-Brock,FinTech,Germany,25,Content Marketing,2025-03-01,Growth
+CUST0148,"Holmes, Williams and Wright",Marketing,Netherlands,100,Content Marketing,2024-07-01,Growth
+CUST0149,Bryant Group,Real Estate,France,1000,Referral,2024-06-01,Growth
+CUST0150,"Schmidt, Hansen and Stewart",Media,Germany,50,Referral,2024-07-01,Starter
+CUST0151,Salazar-Ball,EdTech,Australia,5,Partner,2025-01-01,Starter
+CUST0152,"Simmons, Meadows and Griffin",Healthcare,Canada,25,Partner,2025-04-01,Growth
+CUST0153,Manning Group,SaaS/Tech,Singapore,50,Organic Search,2025-08-01,Growth
+CUST0154,Green-Wright,Marketing,Canada,100,Paid Ads,2024-08-01,Enterprise
+CUST0155,"Ramirez, Strickland and Washington",Logistics,India,50,Organic Search,2024-03-01,Starter
+CUST0156,Hill Inc,Logistics,Germany,10,Partner,2024-07-01,Enterprise
+CUST0157,"Mitchell, Nelson and Flores",Media,United Kingdom,1,Outbound Sales,2024-05-01,Enterprise
+CUST0158,"Miller, Hernandez and Reyes",Media,Brazil,100,Paid Ads,2025-02-01,Starter
+CUST0159,Mccarthy Inc,Marketing,Brazil,5,Organic Search,2024-07-01,Enterprise
+CUST0160,Russell-Daniels,FinTech,Netherlands,1,Paid Ads,2024-06-01,Starter
+CUST0161,Brown-Wall,SaaS/Tech,Germany,5,Paid Ads,2024-08-01,Starter
+CUST0162,Stein-Silva,Manufacturing,Netherlands,25,Outbound Sales,2024-06-01,Starter
+CUST0163,"Smith, Gilmore and Johnston",Media,Germany,250,Referral,2024-05-01,Starter
+CUST0164,Smith-Bell,E-commerce,Netherlands,5,Paid Ads,2025-07-01,Growth
+CUST0165,Castaneda-Ashley,Marketing,United Kingdom,10,Paid Ads,2024-05-01,Growth
+CUST0166,Medina-Navarro,FinTech,India,1,Content Marketing,2025-02-01,Starter
+CUST0167,"Hurst, Freeman and Nelson",SaaS/Tech,Brazil,50,Organic Search,2024-03-01,Growth
+CUST0168,Johnson-Rogers,Marketing,Brazil,5,Partner,2024-12-01,Starter
+CUST0169,"Yates, Ramsey and Pittman",Marketing,Netherlands,25,Content Marketing,2025-07-01,Starter
+CUST0170,Hooper PLC,EdTech,India,50,Paid Ads,2024-05-01,Starter
+CUST0171,Meadows PLC,Healthcare,Germany,50,Content Marketing,2024-05-01,Starter
+CUST0172,"Alvarado, Miller and Patterson",Marketing,France,50,Outbound Sales,2024-08-01,Starter
+CUST0173,White-Green,Media,United Kingdom,1,Content Marketing,2024-03-01,Growth
+CUST0174,Lewis-Murphy,SaaS/Tech,Germany,1,Organic Search,2024-04-01,Growth
+CUST0175,Ramirez-Bean,SaaS/Tech,Netherlands,1,Partner,2025-10-01,Starter
+CUST0176,King-Miller,SaaS/Tech,USA,10,Content Marketing,2025-03-01,Enterprise
+CUST0177,Curry Inc,Media,Germany,10,Outbound Sales,2024-04-01,Growth
+CUST0178,Walker-Jones,Media,United Kingdom,500,Referral,2025-05-01,Starter
+CUST0179,"Williams, Johnson and Wright",Real Estate,United Kingdom,10,Referral,2024-07-01,Starter
+CUST0180,Howell and Sons,Media,Germany,250,Outbound Sales,2024-12-01,Starter
+CUST0181,Wells Inc,FinTech,Australia,50,Referral,2024-09-01,Starter
+CUST0182,"Gould, Marshall and Scott",Manufacturing,Singapore,1,Partner,2025-03-01,Starter
+CUST0183,Jackson-Lawson,Media,France,1,Paid Ads,2024-12-01,Enterprise
+CUST0184,"Higgins, Strickland and Martin",SaaS/Tech,Brazil,500,Organic Search,2024-08-01,Growth
+CUST0185,Rodriguez-Johnson,Logistics,India,50,Content Marketing,2025-04-01,Starter
+CUST0186,Johnston-Odonnell,Media,United Kingdom,1,Partner,2024-05-01,Enterprise
+CUST0187,Sanders-Espinoza,EdTech,India,50,Outbound Sales,2025-04-01,Growth
+CUST0188,Vargas Ltd,Manufacturing,United Kingdom,25,Organic Search,2025-06-01,Starter
+CUST0189,Garcia LLC,FinTech,India,500,Partner,2024-11-01,Growth
+CUST0190,"Burke, Martinez and Riggs",Marketing,France,500,Content Marketing,2024-12-01,Starter
+CUST0191,Reed Group,Logistics,India,250,Paid Ads,2024-04-01,Starter
+CUST0192,"Wood, Hunter and Peterson",Logistics,India,5,Referral,2025-10-01,Enterprise
+CUST0193,Short-Garcia,Manufacturing,Australia,1000,Referral,2024-05-01,Growth
+CUST0194,Reid-Poole,Marketing,Germany,500,Paid Ads,2024-09-01,Enterprise
+CUST0195,"Hernandez, Thompson and Boyd",Media,Australia,100,Outbound Sales,2025-06-01,Starter
+CUST0196,"Nelson, Morton and Medina",Manufacturing,Brazil,100,Paid Ads,2024-06-01,Growth
+CUST0197,Marshall-Petersen,EdTech,Netherlands,250,Paid Ads,2024-10-01,Enterprise
+CUST0198,"Adams, Christian and Rivas",Manufacturing,USA,100,Partner,2024-05-01,Enterprise
+CUST0199,Ramirez Group,Manufacturing,France,10,Content Marketing,2025-02-01,Growth
+CUST0200,Christensen PLC,Healthcare,Singapore,100,Organic Search,2025-05-01,Enterprise
+CUST0201,"Barnett, Rogers and Snyder",Media,United Kingdom,1000,Content Marketing,2024-04-01,Enterprise
+CUST0202,White-Lewis,Healthcare,France,10,Organic Search,2024-02-01,Starter
+CUST0203,Peterson-Beard,Marketing,Australia,250,Partner,2024-01-01,Growth
+CUST0204,"Beard, Peters and Black",Real Estate,Singapore,250,Referral,2024-06-01,Starter
+CUST0205,Miller Ltd,Media,Singapore,1,Outbound Sales,2024-10-01,Growth
+CUST0206,Freeman-Chang,Marketing,Canada,5,Content Marketing,2025-07-01,Starter
+CUST0207,"Alvarez, Joseph and West",FinTech,Brazil,10,Partner,2024-11-01,Enterprise
+CUST0208,Davis and Sons,E-commerce,USA,100,Organic Search,2024-10-01,Starter
+CUST0209,Holt-Torres,Real Estate,France,10,Paid Ads,2025-03-01,Starter
+CUST0210,"Wood, Tran and Cooper",SaaS/Tech,India,10,Paid Ads,2024-12-01,Growth
+CUST0211,"Pierce, Bell and Chavez",Manufacturing,Netherlands,25,Content Marketing,2024-08-01,Starter
+CUST0212,King-Martinez,Healthcare,Canada,500,Partner,2024-04-01,Enterprise
+CUST0213,Stewart Ltd,Marketing,USA,500,Referral,2025-03-01,Starter
+CUST0214,"Tapia, Vaughn and Lee",Healthcare,United Kingdom,500,Referral,2025-02-01,Growth
+CUST0215,"Washington, Hardy and Bray",Marketing,France,50,Content Marketing,2024-03-01,Enterprise
+CUST0216,"Carlson, Hooper and Wall",EdTech,France,500,Organic Search,2024-11-01,Enterprise
+CUST0217,Perez-White,SaaS/Tech,Australia,50,Partner,2024-07-01,Starter
+CUST0218,Erickson and Sons,Manufacturing,Germany,1,Outbound Sales,2025-06-01,Starter
+CUST0219,Williams-Brown,E-commerce,Netherlands,500,Referral,2024-05-01,Enterprise
+CUST0220,Terry-Martinez,EdTech,Netherlands,100,Paid Ads,2025-03-01,Growth
+CUST0221,Garcia-Smith,SaaS/Tech,Germany,10,Partner,2025-08-01,Growth
+CUST0222,Harrison-Alexander,E-commerce,Germany,500,Organic Search,2024-07-01,Starter
+CUST0223,Sheppard LLC,Healthcare,United Kingdom,50,Referral,2024-09-01,Growth
+CUST0224,Wilson-Jones,Healthcare,Canada,10,Outbound Sales,2024-12-01,Growth
+CUST0225,Jones-Soto,Real Estate,Singapore,1000,Referral,2024-11-01,Enterprise
+CUST0226,Hernandez PLC,Marketing,Brazil,50,Partner,2024-03-01,Enterprise
+CUST0227,Miller-Wright,FinTech,Brazil,5,Paid Ads,2024-07-01,Enterprise
+CUST0228,"Duran, Obrien and Gibbs",EdTech,France,1000,Referral,2025-04-01,Growth
+CUST0229,Rowe Group,Manufacturing,USA,50,Outbound Sales,2024-09-01,Starter
+CUST0230,Kerr-Evans,Real Estate,Germany,250,Partner,2025-07-01,Starter
+CUST0231,"Branch, Torres and Oliver",FinTech,Canada,500,Organic Search,2025-03-01,Enterprise
+CUST0232,"Choi, Garcia and Farmer",Logistics,Australia,25,Partner,2024-08-01,Growth
+CUST0233,"Clark, Guerrero and Moore",Media,Germany,250,Organic Search,2024-07-01,Starter
+CUST0234,Arnold and Sons,E-commerce,Germany,500,Organic Search,2024-04-01,Starter
+CUST0235,Ortiz Ltd,Logistics,India,250,Content Marketing,2024-04-01,Starter
+CUST0236,"Harrison, Johnson and Roberts",Logistics,France,10,Content Marketing,2024-09-01,Starter
+CUST0237,Warner-Gibson,Media,Netherlands,250,Referral,2024-08-01,Growth
+CUST0238,"Hall, Baker and Moody",Real Estate,Canada,500,Content Marketing,2024-09-01,Starter
+CUST0239,"Guerrero, Peck and Coleman",Real Estate,United Kingdom,100,Outbound Sales,2025-03-01,Enterprise
+CUST0240,"Walker, Hernandez and Baker",Real Estate,USA,250,Referral,2024-11-01,Enterprise
+CUST0241,Jones and Sons,FinTech,Brazil,5,Partner,2025-03-01,Starter
+CUST0242,Larson-Holloway,SaaS/Tech,USA,1,Referral,2024-10-01,Starter
+CUST0243,Gonzales-Harrison,Healthcare,Netherlands,25,Organic Search,2024-10-01,Starter
+CUST0244,Lyons-Bender,Logistics,Canada,25,Paid Ads,2024-09-01,Enterprise
+CUST0245,"Fernandez, Kim and George",Healthcare,Netherlands,1,Referral,2024-07-01,Starter
+CUST0246,Navarro-Munoz,Healthcare,India,1000,Referral,2025-07-01,Enterprise
+CUST0247,Davis Ltd,FinTech,USA,10,Organic Search,2024-07-01,Growth
+CUST0248,"Matthews, Smith and Hubbard",EdTech,Netherlands,100,Organic Search,2024-12-01,Starter
+CUST0249,Johnston-Hines,E-commerce,India,250,Outbound Sales,2024-06-01,Starter
+CUST0250,Ruiz Ltd,FinTech,Brazil,500,Referral,2025-07-01,Starter
+CUST0251,Moon-White,FinTech,Brazil,1000,Paid Ads,2024-04-01,Growth
+CUST0252,"Graham, Olsen and Costa",E-commerce,Singapore,50,Content Marketing,2024-05-01,Enterprise
+CUST0253,Bailey-Cook,E-commerce,USA,500,Content Marketing,2025-03-01,Growth
+CUST0254,"Garcia, Martin and Jenkins",FinTech,Brazil,500,Organic Search,2024-12-01,Starter
+CUST0255,Roberts-Landry,Real Estate,Netherlands,10,Organic Search,2024-07-01,Enterprise
+CUST0256,"Johnson, Miller and King",SaaS/Tech,Netherlands,1000,Partner,2025-02-01,Starter
+CUST0257,Cordova Group,SaaS/Tech,Singapore,50,Content Marketing,2024-09-01,Starter
+CUST0258,"Bryan, Smith and Booth",Manufacturing,United Kingdom,5,Partner,2024-07-01,Growth
+CUST0259,Gutierrez-Lopez,Logistics,Canada,250,Content Marketing,2024-08-01,Growth
+CUST0260,Dean-Jimenez,Manufacturing,Australia,500,Content Marketing,2025-05-01,Enterprise
+CUST0261,Wolf-Harris,FinTech,Australia,250,Referral,2025-02-01,Starter
+CUST0262,"Anderson, Roberts and Gilmore",Real Estate,India,500,Organic Search,2025-01-01,Growth
+CUST0263,Martinez-Dudley,FinTech,United Kingdom,250,Organic Search,2024-10-01,Starter
+CUST0264,"Lloyd, Mckinney and Collins",Real Estate,India,1000,Organic Search,2024-08-01,Growth
+CUST0265,Tran Inc,Logistics,Singapore,100,Partner,2024-07-01,Growth
+CUST0266,Gay Inc,Real Estate,France,1,Referral,2025-05-01,Starter
+CUST0267,Valentine-Holland,Real Estate,United Kingdom,1000,Paid Ads,2024-03-01,Growth
+CUST0268,Jimenez Ltd,Media,Canada,5,Referral,2024-02-01,Starter
+CUST0269,Hicks-Hill,Real Estate,United Kingdom,50,Outbound Sales,2025-01-01,Enterprise
+CUST0270,Baird-Sanchez,Manufacturing,Singapore,1000,Organic Search,2024-07-01,Starter
+CUST0271,"Thomas, Lee and Greene",Marketing,USA,10,Referral,2025-05-01,Growth
+CUST0272,"Suarez, Shields and Hill",Marketing,Australia,100,Organic Search,2025-02-01,Growth
+CUST0273,Morgan-French,Healthcare,Netherlands,250,Organic Search,2024-09-01,Starter
+CUST0274,Hoover-Campbell,E-commerce,United Kingdom,1000,Paid Ads,2025-03-01,Starter
+CUST0275,Monroe-Carpenter,Media,Australia,10,Referral,2025-04-01,Starter
+CUST0276,"Burns, Hernandez and Ryan",Real Estate,Netherlands,5,Organic Search,2025-04-01,Starter
+CUST0277,Cook-Hines,SaaS/Tech,USA,5,Referral,2024-08-01,Starter
+CUST0278,Gibson-Morris,Manufacturing,Brazil,500,Content Marketing,2024-02-01,Starter
+CUST0279,Pollard and Sons,Logistics,United Kingdom,100,Content Marketing,2024-01-01,Starter
+CUST0280,"Reyes, Chase and Jenkins",SaaS/Tech,Brazil,1000,Partner,2025-04-01,Starter
+CUST0281,Garner-Thornton,EdTech,France,1,Organic Search,2024-10-01,Starter
+CUST0282,Hughes-Alvarado,EdTech,India,50,Referral,2024-05-01,Starter
+CUST0283,"Pollard, Simpson and Johnson",E-commerce,Brazil,250,Paid Ads,2024-11-01,Starter
+CUST0284,"Sanford, Rivera and Garcia",Logistics,Canada,1000,Outbound Sales,2024-11-01,Starter
+CUST0285,Garcia-Lozano,Real Estate,United Kingdom,250,Partner,2024-11-01,Enterprise
+CUST0286,Bowen Group,E-commerce,Brazil,5,Referral,2024-08-01,Starter
+CUST0287,"Booker, Jones and Harrington",SaaS/Tech,France,250,Referral,2025-02-01,Growth
+CUST0288,Morgan-Schwartz,E-commerce,Australia,10,Outbound Sales,2024-04-01,Starter
+CUST0289,"Miller, Murphy and Craig",Real Estate,United Kingdom,250,Organic Search,2024-08-01,Growth
+CUST0290,"James, Stewart and Higgins",SaaS/Tech,France,1000,Organic Search,2024-06-01,Starter
+CUST0291,Brennan-Johnson,Marketing,Australia,25,Referral,2025-02-01,Starter
+CUST0292,Young Ltd,FinTech,Singapore,5,Outbound Sales,2024-06-01,Growth
+CUST0293,Bright-Francis,Real Estate,Australia,10,Paid Ads,2024-03-01,Growth
+CUST0294,Good-Hodges,Marketing,Canada,10,Outbound Sales,2024-12-01,Starter
+CUST0295,"Brennan, Wallace and Benson",FinTech,India,500,Content Marketing,2024-11-01,Starter
+CUST0296,Williams Inc,SaaS/Tech,Brazil,100,Partner,2024-03-01,Growth
+CUST0297,Howard-Jordan,Media,United Kingdom,500,Content Marketing,2025-03-01,Starter
+CUST0298,Schmidt PLC,Marketing,Netherlands,1,Referral,2024-10-01,Growth
+CUST0299,"Sparks, Jackson and Miller",Marketing,Brazil,500,Organic Search,2024-07-01,Growth
+CUST0300,Harvey-Allen,Marketing,United Kingdom,5,Outbound Sales,2024-01-01,Starter
+CUST0301,"Thomas, Murray and King",Manufacturing,Brazil,1000,Partner,2025-02-01,Growth
+CUST0302,Estrada-Nolan,Media,Netherlands,25,Referral,2024-11-01,Enterprise
+CUST0303,Santana-Byrd,Logistics,India,1,Content Marketing,2024-12-01,Growth
+CUST0304,Jones LLC,Real Estate,United Kingdom,1000,Partner,2025-01-01,Starter
+CUST0305,"Evans, Hayden and Vaughn",EdTech,Brazil,500,Outbound Sales,2024-02-01,Starter
+CUST0306,Bruce-Gonzalez,Healthcare,Australia,100,Referral,2024-08-01,Growth
+CUST0307,Castaneda-Rodriguez,Real Estate,Netherlands,1,Partner,2025-04-01,Starter
+CUST0308,Armstrong-Andrews,FinTech,Australia,5,Outbound Sales,2024-03-01,Growth
+CUST0309,"Phillips, Spence and Barrett",Marketing,Germany,10,Referral,2024-09-01,Growth
+CUST0310,Smith-Grimes,Healthcare,Australia,50,Partner,2024-03-01,Starter
+CUST0311,"Beltran, Lozano and Mcgee",Manufacturing,India,5,Referral,2025-01-01,Growth
+CUST0312,Parsons-Hall,Real Estate,India,1000,Organic Search,2024-10-01,Growth
+CUST0313,Robinson-Lee,Manufacturing,Singapore,100,Organic Search,2025-01-01,Growth
+CUST0314,Byrd-Le,Healthcare,Canada,100,Content Marketing,2025-01-01,Starter
+CUST0315,"Becker, Taylor and Davis",Healthcare,India,5,Referral,2025-06-01,Starter
+CUST0316,"Lucas, Parker and Alexander",FinTech,Singapore,1000,Partner,2025-07-01,Enterprise
+CUST0317,"Diaz, Anderson and Browning",E-commerce,Australia,10,Outbound Sales,2024-03-01,Enterprise
+CUST0318,Burgess-Thompson,Healthcare,India,10,Partner,2024-12-01,Starter
+CUST0319,Buchanan LLC,Manufacturing,Australia,25,Content Marketing,2024-06-01,Starter
+CUST0320,"Shaw, Nelson and Martin",Media,Canada,1000,Paid Ads,2024-09-01,Growth
+CUST0321,Coffey-Phillips,Media,Canada,100,Partner,2024-04-01,Starter
+CUST0322,Brock-Mcdonald,Media,Brazil,50,Content Marketing,2024-06-01,Enterprise
+CUST0323,Taylor and Sons,Manufacturing,India,25,Outbound Sales,2024-08-01,Growth
+CUST0324,"Ramsey, Whitney and Coffey",Marketing,USA,500,Referral,2024-05-01,Starter
+CUST0325,"Diaz, Gibbs and Smith",FinTech,Singapore,5,Referral,2025-04-01,Growth
+CUST0326,"Martinez, Richardson and Curry",Healthcare,Germany,500,Outbound Sales,2024-05-01,Starter
+CUST0327,Richards-Carson,Manufacturing,United Kingdom,25,Content Marketing,2024-08-01,Starter
+CUST0328,Rodriguez-Hall,E-commerce,France,1,Content Marketing,2024-02-01,Enterprise
+CUST0329,Harvey PLC,EdTech,France,5,Referral,2024-11-01,Growth
+CUST0330,Herman-Walker,Real Estate,United Kingdom,100,Paid Ads,2025-03-01,Starter
+CUST0331,Reid Group,Marketing,Brazil,10,Partner,2024-01-01,Starter
+CUST0332,"Turner, Ortiz and Taylor",SaaS/Tech,USA,5,Organic Search,2024-10-01,Growth
+CUST0333,Torres Group,Healthcare,Singapore,1000,Content Marketing,2025-03-01,Starter
+CUST0334,Davis PLC,Marketing,Canada,50,Organic Search,2025-01-01,Starter
+CUST0335,Price LLC,Manufacturing,Netherlands,500,Organic Search,2024-03-01,Starter
+CUST0336,"Avery, Horton and Fernandez",Media,Netherlands,1000,Organic Search,2024-05-01,Starter
+CUST0337,"Newton, Moore and Perry",SaaS/Tech,Canada,10,Referral,2024-08-01,Growth
+CUST0338,Bass PLC,SaaS/Tech,Australia,25,Outbound Sales,2024-03-01,Starter
+CUST0339,Crosby-Ramirez,FinTech,Singapore,100,Organic Search,2024-06-01,Starter
+CUST0340,"Wood, Ramos and Sampson",Logistics,Singapore,1000,Outbound Sales,2024-08-01,Enterprise
+CUST0341,Garcia-Jennings,Media,USA,250,Referral,2024-09-01,Starter
+CUST0342,"Winters, Newman and Brown",E-commerce,Australia,5,Referral,2024-06-01,Starter
+CUST0343,Lopez-Martinez,FinTech,Netherlands,100,Paid Ads,2024-05-01,Starter
+CUST0344,Davis-Lewis,Logistics,Australia,10,Partner,2024-02-01,Starter
+CUST0345,"Harper, Smith and Buchanan",Media,India,10,Organic Search,2024-11-01,Growth
+CUST0346,Zhang PLC,Media,USA,50,Paid Ads,2024-11-01,Growth
+CUST0347,Jones PLC,EdTech,USA,100,Referral,2025-02-01,Starter
+CUST0348,Willis and Sons,Logistics,Brazil,50,Organic Search,2024-03-01,Growth
+CUST0349,Schroeder-Kramer,EdTech,Germany,100,Organic Search,2024-07-01,Growth
+CUST0350,"Smith, Garrison and Thomas",Real Estate,Germany,5,Referral,2024-11-01,Enterprise
+CUST0351,Fernandez and Sons,Manufacturing,Brazil,250,Referral,2025-02-01,Starter
+CUST0352,Guerrero Inc,Media,Brazil,100,Outbound Sales,2025-06-01,Enterprise
+CUST0353,Smith and Sons,FinTech,France,5,Content Marketing,2024-01-01,Starter
+CUST0354,"Morris, Thompson and Williams",Healthcare,Singapore,50,Referral,2025-03-01,Growth
+CUST0355,"Fisher, Wilson and Brown",Real Estate,Germany,50,Content Marketing,2024-12-01,Starter
+CUST0356,Strickland-Palmer,Manufacturing,India,500,Referral,2025-05-01,Growth
+CUST0357,Hayes and Sons,Real Estate,Netherlands,250,Referral,2024-03-01,Starter
+CUST0358,"Williams, Logan and Camacho",E-commerce,United Kingdom,250,Referral,2024-05-01,Growth
+CUST0359,"Turner, Schneider and Johnson",Healthcare,USA,10,Outbound Sales,2024-10-01,Growth
+CUST0360,Boone-Simmons,Media,USA,10,Organic Search,2024-06-01,Growth
+CUST0361,Henry Group,Real Estate,Australia,250,Outbound Sales,2025-05-01,Starter
+CUST0362,Lam LLC,Healthcare,Brazil,100,Referral,2024-11-01,Starter
+CUST0363,"Hernandez, Martinez and Weber",FinTech,Netherlands,10,Outbound Sales,2024-11-01,Starter
+CUST0364,"Kelley, Nguyen and Vang",Real Estate,Germany,25,Organic Search,2025-06-01,Starter
+CUST0365,"Phillips, Wagner and Jordan",Healthcare,Brazil,1000,Content Marketing,2024-08-01,Starter
+CUST0366,"Wilson, Pena and Rich",FinTech,Germany,50,Partner,2024-12-01,Enterprise
+CUST0367,"Le, Lewis and Hayes",SaaS/Tech,Germany,500,Paid Ads,2024-06-01,Starter
+CUST0368,Gutierrez Group,FinTech,Brazil,10,Partner,2024-10-01,Starter
+CUST0369,Perry-Davis,FinTech,Australia,100,Partner,2025-01-01,Starter
+CUST0370,Edwards-Scott,Logistics,Germany,50,Paid Ads,2024-05-01,Starter
+CUST0371,Mcdaniel Group,Healthcare,Australia,1000,Paid Ads,2024-09-01,Growth
+CUST0372,Davis Inc,EdTech,India,25,Content Marketing,2024-12-01,Starter
+CUST0373,Reynolds Ltd,Logistics,Netherlands,100,Content Marketing,2024-03-01,Starter
+CUST0374,"Watson, Anderson and Brown",Logistics,India,5,Organic Search,2025-02-01,Enterprise
+CUST0375,"Hoffman, Santiago and Jenkins",Media,Singapore,250,Content Marketing,2024-12-01,Starter
+CUST0376,"Pugh, Henderson and Moon",FinTech,India,100,Partner,2024-08-01,Enterprise
+CUST0377,Schmitt PLC,Media,Singapore,100,Paid Ads,2024-11-01,Starter
+CUST0378,Bell-Lane,Logistics,Netherlands,10,Paid Ads,2025-08-01,Enterprise
+CUST0379,Moore Group,E-commerce,United Kingdom,1000,Paid Ads,2024-04-01,Starter
+CUST0380,Boone LLC,Healthcare,Australia,25,Referral,2024-09-01,Starter
+CUST0381,"Richardson, Farmer and Andrews",Logistics,Germany,5,Referral,2025-09-01,Enterprise
+CUST0382,Bruce-Villegas,Logistics,Germany,10,Partner,2024-06-01,Starter
+CUST0383,"Austin, Day and Johnson",Logistics,United Kingdom,1000,Partner,2024-08-01,Starter
+CUST0384,"Gallegos, Adams and White",SaaS/Tech,India,10,Partner,2025-04-01,Starter
+CUST0385,"Farmer, Dorsey and Bell",SaaS/Tech,Australia,1,Organic Search,2024-12-01,Growth
+CUST0386,Kane PLC,SaaS/Tech,Germany,25,Outbound Sales,2024-09-01,Starter
+CUST0387,"Morales, Thomas and Schultz",E-commerce,Brazil,1000,Referral,2024-04-01,Starter
+CUST0388,Davis PLC,Marketing,Brazil,25,Partner,2025-03-01,Growth
+CUST0389,Bennett Group,Media,United Kingdom,1,Paid Ads,2025-08-01,Starter
+CUST0390,Moore-Collins,Media,Brazil,25,Referral,2024-10-01,Starter
+CUST0391,Frank-Bradley,Real Estate,Australia,100,Content Marketing,2025-03-01,Growth
+CUST0392,Ware and Sons,Real Estate,Singapore,1000,Organic Search,2024-07-01,Starter
+CUST0393,Webster Inc,Media,United Kingdom,50,Content Marketing,2024-06-01,Starter
+CUST0394,"Miller, Ramos and Coleman",FinTech,USA,50,Content Marketing,2024-04-01,Starter
+CUST0395,"Ramos, Nelson and Fischer",Manufacturing,Canada,10,Referral,2024-12-01,Enterprise
+CUST0396,Reed Inc,Real Estate,Canada,10,Content Marketing,2025-05-01,Enterprise
+CUST0397,Gregory-Watkins,Media,Brazil,50,Content Marketing,2024-09-01,Enterprise
+CUST0398,"Estrada, Williams and Foster",Manufacturing,Singapore,500,Paid Ads,2025-03-01,Starter
+CUST0399,"Brown, Harris and Dougherty",Real Estate,USA,1,Referral,2024-09-01,Starter
+CUST0400,Duran LLC,Media,Germany,1000,Organic Search,2025-02-01,Growth
+CUST0401,Wilson-Jimenez,Manufacturing,India,50,Partner,2024-10-01,Enterprise
+CUST0402,Thompson-James,Manufacturing,Australia,1,Content Marketing,2024-02-01,Starter
+CUST0403,"Hall, Hansen and Barnett",Logistics,Canada,100,Outbound Sales,2024-06-01,Starter
+CUST0404,Jones-Hensley,Manufacturing,Singapore,500,Outbound Sales,2024-07-01,Starter
+CUST0405,Graham Group,SaaS/Tech,Netherlands,5,Paid Ads,2024-09-01,Starter
+CUST0406,Atkins PLC,Manufacturing,Australia,100,Outbound Sales,2024-12-01,Enterprise
+CUST0407,Berry-Mckinney,Healthcare,Canada,1000,Content Marketing,2024-03-01,Enterprise
+CUST0408,Roberts-Sullivan,E-commerce,USA,10,Partner,2024-04-01,Growth
+CUST0409,Jackson-Meza,Media,Singapore,500,Paid Ads,2024-09-01,Starter
+CUST0410,Collier-Gillespie,Logistics,India,100,Outbound Sales,2025-04-01,Growth
+CUST0411,Kim Inc,Manufacturing,Netherlands,50,Outbound Sales,2024-12-01,Starter
+CUST0412,Graham Group,Logistics,Singapore,500,Partner,2024-04-01,Starter
+CUST0413,"Miller, Harrell and Reese",Media,USA,100,Referral,2024-03-01,Growth
+CUST0414,Cook and Sons,Manufacturing,Netherlands,50,Partner,2024-08-01,Growth
+CUST0415,Dixon Inc,E-commerce,Netherlands,500,Referral,2024-10-01,Enterprise
+CUST0416,"Hicks, Bullock and Bailey",SaaS/Tech,Netherlands,25,Partner,2025-05-01,Enterprise
+CUST0417,"Mullen, Brewer and Hernandez",Media,India,1000,Partner,2024-04-01,Starter
+CUST0418,Thomas and Sons,Manufacturing,India,25,Organic Search,2025-03-01,Growth
+CUST0419,Morrison Ltd,FinTech,Canada,1,Content Marketing,2024-06-01,Growth
+CUST0420,Thompson Ltd,Healthcare,France,25,Content Marketing,2025-05-01,Starter
+CUST0421,Marshall-Elliott,SaaS/Tech,Brazil,1,Partner,2025-02-01,Growth
+CUST0422,"Cole, Glass and Cunningham",EdTech,Singapore,100,Partner,2025-02-01,Starter
+CUST0423,"Downs, Morris and Maddox",Manufacturing,Australia,10,Content Marketing,2025-04-01,Growth
+CUST0424,Hernandez-Jones,Real Estate,Singapore,100,Partner,2024-07-01,Enterprise
+CUST0425,Welch-Hogan,Marketing,Netherlands,500,Paid Ads,2025-07-01,Growth
+CUST0426,"Brown, Romero and Collins",Marketing,Singapore,50,Paid Ads,2024-09-01,Enterprise
+CUST0427,Johnson-Wood,Marketing,Germany,25,Partner,2025-02-01,Enterprise
+CUST0428,Jones-Lin,Real Estate,Brazil,100,Outbound Sales,2025-06-01,Growth
+CUST0429,Gilbert PLC,Marketing,Germany,5,Outbound Sales,2024-02-01,Enterprise
+CUST0430,Ford-Spencer,Manufacturing,France,100,Paid Ads,2025-04-01,Growth
+CUST0431,"Huang, Cole and Pacheco",Marketing,United Kingdom,100,Content Marketing,2025-04-01,Starter
+CUST0432,"Lopez, Jacobs and Mason",Media,Canada,25,Outbound Sales,2025-03-01,Growth
+CUST0433,Hayes LLC,Logistics,Germany,10,Organic Search,2024-05-01,Starter
+CUST0434,"Miller, Lucas and Williams",SaaS/Tech,Canada,25,Organic Search,2024-05-01,Growth
+CUST0435,"Kim, Gonzales and Mills",Logistics,Canada,25,Organic Search,2024-09-01,Growth
+CUST0436,Cox LLC,Real Estate,Brazil,5,Partner,2024-10-01,Starter
+CUST0437,Ortiz-Morgan,E-commerce,Singapore,10,Content Marketing,2024-07-01,Growth
+CUST0438,"Williams, Mccoy and Cook",Media,Brazil,25,Referral,2025-05-01,Growth
+CUST0439,Davis-Gregory,E-commerce,United Kingdom,25,Outbound Sales,2024-01-01,Starter
+CUST0440,King-York,E-commerce,India,250,Paid Ads,2024-08-01,Growth
+CUST0441,"Marks, Cook and Aguilar",E-commerce,France,500,Paid Ads,2024-04-01,Enterprise
+CUST0442,Rangel LLC,Marketing,USA,1,Referral,2025-07-01,Enterprise
+CUST0443,"Hale, Myers and Larson",FinTech,Australia,50,Content Marketing,2024-12-01,Growth
+CUST0444,Collins Group,Logistics,Singapore,500,Paid Ads,2024-09-01,Enterprise
+CUST0445,"Conner, Li and Santiago",Media,Germany,25,Organic Search,2024-05-01,Enterprise
+CUST0446,"Osborn, Gaines and Davis",Media,Germany,10,Organic Search,2024-12-01,Starter
+CUST0447,"Henderson, Cox and Cox",Marketing,Netherlands,25,Paid Ads,2024-04-01,Growth
+CUST0448,Bean LLC,Manufacturing,France,1000,Referral,2024-11-01,Growth
+CUST0449,Lee-Cooke,FinTech,India,10,Content Marketing,2025-06-01,Starter
+CUST0450,Jones Inc,EdTech,USA,50,Content Marketing,2025-06-01,Starter
+CUST0451,"Wise, Conley and Stephenson",Marketing,Australia,50,Outbound Sales,2024-05-01,Starter
+CUST0452,Stanley PLC,E-commerce,Germany,100,Partner,2025-05-01,Growth
+CUST0453,Harper and Sons,FinTech,Brazil,50,Paid Ads,2024-02-01,Starter
+CUST0454,White Ltd,Logistics,Germany,5,Partner,2024-08-01,Starter
+CUST0455,"Lamb, Martin and Kim",Marketing,Australia,25,Paid Ads,2024-06-01,Enterprise
+CUST0456,Diaz-Ball,Media,India,500,Partner,2024-01-01,Enterprise
+CUST0457,Bishop-Goodwin,Real Estate,France,1000,Content Marketing,2025-02-01,Enterprise
+CUST0458,Young-Allen,EdTech,Canada,5,Outbound Sales,2025-04-01,Growth
+CUST0459,Mckee-Lee,Real Estate,United Kingdom,5,Organic Search,2025-04-01,Starter
+CUST0460,"Valentine, Joyce and Murray",Logistics,Canada,1000,Paid Ads,2024-12-01,Enterprise
+CUST0461,Strickland-Shaw,Logistics,Brazil,5,Partner,2024-12-01,Starter
+CUST0462,Burch-Montoya,SaaS/Tech,Brazil,5,Outbound Sales,2025-08-01,Starter
+CUST0463,"Taylor, Wright and Davidson",E-commerce,Brazil,10,Outbound Sales,2024-08-01,Starter
+CUST0464,Spencer-Garcia,SaaS/Tech,USA,1000,Content Marketing,2024-12-01,Starter
+CUST0465,"Rosales, Mitchell and Hines",Marketing,USA,250,Referral,2024-06-01,Growth
+CUST0466,Cole-Palmer,EdTech,Netherlands,5,Organic Search,2025-04-01,Enterprise
+CUST0467,Davis-Lozano,FinTech,Singapore,1,Organic Search,2025-03-01,Starter
+CUST0468,Wilkerson-Arias,Media,USA,50,Content Marketing,2024-11-01,Enterprise
+CUST0469,Brown-Shaw,Healthcare,France,100,Content Marketing,2024-12-01,Starter
+CUST0470,Hughes Inc,Manufacturing,France,5,Partner,2024-10-01,Starter
+CUST0471,Walker-Flores,Logistics,India,100,Organic Search,2024-12-01,Enterprise
+CUST0472,Combs Ltd,Logistics,France,1000,Paid Ads,2024-02-01,Starter
+CUST0473,Moody-Taylor,EdTech,USA,1,Referral,2024-12-01,Growth
+CUST0474,Lowery-Kennedy,Logistics,France,1000,Content Marketing,2025-07-01,Growth
+CUST0475,Blake Group,EdTech,Brazil,100,Paid Ads,2024-07-01,Enterprise
+CUST0476,Gilbert-Bullock,FinTech,USA,250,Outbound Sales,2024-11-01,Starter
+CUST0477,Scott and Sons,E-commerce,Canada,25,Organic Search,2024-09-01,Growth
+CUST0478,"Bentley, Lynch and Henderson",E-commerce,Brazil,1,Paid Ads,2024-07-01,Starter
+CUST0479,Young-Martinez,Manufacturing,Brazil,25,Outbound Sales,2025-03-01,Growth
+CUST0480,Barnes PLC,E-commerce,India,1000,Referral,2024-07-01,Starter
+CUST0481,Brown-Copeland,SaaS/Tech,Australia,100,Paid Ads,2025-03-01,Starter
+CUST0482,Carlson-Smith,Healthcare,Singapore,25,Content Marketing,2024-11-01,Starter
+CUST0483,"Andrews, Higgins and Carter",E-commerce,Singapore,10,Partner,2024-03-01,Starter
+CUST0484,Mendez and Sons,Logistics,Brazil,1,Referral,2024-06-01,Growth
+CUST0485,"Butler, Beck and Miller",Manufacturing,Singapore,100,Partner,2024-11-01,Enterprise
+CUST0486,Jones-Fox,Healthcare,Germany,250,Paid Ads,2024-09-01,Starter
+CUST0487,"Hartman, Romero and Smith",Media,Canada,25,Referral,2024-08-01,Growth
+CUST0488,Williams-Hughes,Healthcare,Brazil,1,Outbound Sales,2024-10-01,Enterprise
+CUST0489,King-Smith,Manufacturing,Singapore,1000,Paid Ads,2024-06-01,Starter
+CUST0490,Cooper Ltd,Marketing,Canada,100,Partner,2024-05-01,Starter
+CUST0491,"Fuller, Ingram and Moss",Media,Australia,5,Outbound Sales,2024-12-01,Starter
+CUST0492,Anderson-Bell,EdTech,USA,50,Content Marketing,2024-11-01,Growth
+CUST0493,Li-Thompson,SaaS/Tech,USA,5,Paid Ads,2024-10-01,Growth
+CUST0494,"Marshall, Dominguez and Welch",SaaS/Tech,Singapore,25,Content Marketing,2025-03-01,Enterprise
+CUST0495,Brown Group,Real Estate,Germany,1,Paid Ads,2024-03-01,Starter
+CUST0496,Carter Inc,FinTech,Brazil,25,Partner,2024-05-01,Enterprise
+CUST0497,Blackwell LLC,EdTech,France,25,Outbound Sales,2024-12-01,Growth
+CUST0498,Robertson-Hays,Marketing,France,500,Outbound Sales,2024-11-01,Starter
+CUST0499,"Kennedy, Johnson and Lucas",Marketing,Germany,100,Outbound Sales,2024-03-01,Growth
+CUST0500,Kelly-Norman,Media,United Kingdom,500,Referral,2025-05-01,Enterprise
+CUST0501,"Rivera, Martinez and Richardson",Real Estate,Australia,250,Organic Search,2024-12-01,Enterprise
+CUST0502,Paul-Kline,EdTech,India,1,Referral,2024-10-01,Growth
+CUST0503,Morgan-Lopez,SaaS/Tech,Netherlands,250,Referral,2024-04-01,Growth
+CUST0504,"Jimenez, Glass and Stone",Real Estate,Canada,250,Outbound Sales,2025-01-01,Starter
+CUST0505,Acosta Inc,Media,Singapore,100,Referral,2024-02-01,Enterprise
+CUST0506,Morrison-Short,Media,Brazil,500,Paid Ads,2025-02-01,Growth
+CUST0507,"Carter, Garcia and Murphy",Real Estate,India,10,Partner,2024-06-01,Growth
+CUST0508,Parker-Morrison,Healthcare,Singapore,1,Outbound Sales,2025-10-01,Growth
+CUST0509,Jackson-Wallace,FinTech,USA,1,Content Marketing,2024-07-01,Starter
+CUST0510,Williams-Berg,EdTech,United Kingdom,10,Organic Search,2024-10-01,Starter
+CUST0511,Mendez-Graham,Media,Australia,1,Outbound Sales,2024-12-01,Starter
+CUST0512,"Whitney, Gould and Jones",SaaS/Tech,Brazil,500,Organic Search,2024-07-01,Growth
+CUST0513,"Sullivan, Palmer and Brady",Logistics,France,1,Organic Search,2025-05-01,Starter
+CUST0514,Cisneros and Sons,Marketing,Singapore,50,Organic Search,2024-11-01,Growth
+CUST0515,"Gregory, Kim and Martinez",Manufacturing,India,5,Organic Search,2024-02-01,Growth
+CUST0516,Osborne LLC,EdTech,Canada,1000,Referral,2024-03-01,Growth
+CUST0517,Reyes-Bradley,Marketing,France,5,Referral,2025-05-01,Enterprise
+CUST0518,"Hernandez, Cole and Watson",Media,Netherlands,25,Partner,2024-09-01,Enterprise
+CUST0519,Hines-Berry,FinTech,USA,5,Content Marketing,2024-09-01,Starter
+CUST0520,"Richardson, Edwards and Ramirez",Logistics,Brazil,1,Partner,2024-09-01,Starter
+CUST0521,Johnson and Sons,Healthcare,United Kingdom,500,Content Marketing,2024-05-01,Starter
+CUST0522,Holmes-Mcintyre,Real Estate,Netherlands,5,Outbound Sales,2024-09-01,Growth
+CUST0523,Green LLC,EdTech,Canada,500,Referral,2024-09-01,Enterprise
+CUST0524,"Griffin, Davies and Mitchell",FinTech,Germany,1000,Outbound Sales,2025-09-01,Starter
+CUST0525,Gonzalez-Taylor,Healthcare,Australia,1,Paid Ads,2024-08-01,Growth
+CUST0526,Hayes Ltd,Manufacturing,United Kingdom,50,Paid Ads,2024-05-01,Growth
+CUST0527,Osborn-Cochran,SaaS/Tech,France,1000,Referral,2024-12-01,Growth
+CUST0528,Contreras-Mckinney,Healthcare,United Kingdom,1000,Partner,2024-11-01,Starter
+CUST0529,"Daniels, Vance and York",E-commerce,United Kingdom,250,Paid Ads,2024-04-01,Enterprise
+CUST0530,"Mckinney, Graves and Thompson",Real Estate,Netherlands,250,Referral,2025-02-01,Enterprise
+CUST0531,Hicks-Martinez,Marketing,Brazil,500,Paid Ads,2024-08-01,Starter
+CUST0532,Conner and Sons,Manufacturing,France,10,Partner,2024-04-01,Starter
+CUST0533,Johnson-Spencer,Manufacturing,United Kingdom,50,Paid Ads,2024-11-01,Growth
+CUST0534,Mcdonald-Bird,FinTech,Germany,10,Content Marketing,2024-08-01,Growth
+CUST0535,Salazar Inc,Healthcare,France,100,Referral,2024-01-01,Growth
+CUST0536,Parker Ltd,E-commerce,Germany,500,Referral,2025-08-01,Starter
+CUST0537,"Mendoza, Jenkins and Ortiz",FinTech,India,5,Paid Ads,2024-08-01,Growth
+CUST0538,"Jones, Compton and Day",Logistics,Singapore,1000,Content Marketing,2024-08-01,Starter
+CUST0539,Owens-Holmes,FinTech,Australia,1000,Organic Search,2024-09-01,Starter
+CUST0540,Humphrey PLC,Real Estate,France,1,Referral,2025-01-01,Growth
+CUST0541,"Matthews, Saunders and Anderson",FinTech,Singapore,25,Outbound Sales,2025-02-01,Starter
+CUST0542,"Bartlett, Brown and Martinez",Manufacturing,India,10,Referral,2024-12-01,Growth
+CUST0543,Torres and Sons,Media,India,5,Paid Ads,2024-01-01,Starter
+CUST0544,Donovan-Perez,Manufacturing,Germany,500,Organic Search,2024-04-01,Starter
+CUST0545,"Jacobson, Singleton and King",EdTech,Brazil,25,Content Marketing,2025-02-01,Starter
+CUST0546,"Huber, Hill and Weber",Marketing,USA,250,Referral,2024-10-01,Starter
+CUST0547,"Ferguson, Shaw and Jackson",Manufacturing,Australia,500,Referral,2024-09-01,Enterprise
+CUST0548,"Moore, Hopkins and Le",SaaS/Tech,India,50,Referral,2025-01-01,Starter
+CUST0549,"Morgan, Bradshaw and Williams",EdTech,Brazil,100,Paid Ads,2024-11-01,Growth
+CUST0550,Miller Ltd,Real Estate,Germany,500,Outbound Sales,2025-03-01,Enterprise
+CUST0551,"Baker, Clark and Armstrong",Real Estate,France,50,Content Marketing,2024-10-01,Growth
+CUST0552,"Fowler, Jimenez and Burton",SaaS/Tech,Canada,1000,Paid Ads,2024-09-01,Starter
+CUST0553,May-Turner,Logistics,USA,500,Partner,2024-09-01,Growth
+CUST0554,Ballard Ltd,Marketing,United Kingdom,250,Partner,2024-12-01,Starter
+CUST0555,Evans-Jones,Marketing,Canada,50,Partner,2025-03-01,Growth
+CUST0556,Moore Group,Manufacturing,France,5,Content Marketing,2024-09-01,Starter
+CUST0557,Marshall-Peterson,Media,Netherlands,250,Outbound Sales,2025-06-01,Enterprise
+CUST0558,Edwards Ltd,Manufacturing,Singapore,1,Referral,2024-08-01,Growth
+CUST0559,Gross-Valencia,Logistics,Netherlands,5,Organic Search,2025-08-01,Growth
+CUST0560,Anderson-Wood,Real Estate,India,1,Outbound Sales,2024-04-01,Growth
+CUST0561,"Rodriguez, Allen and Martinez",Manufacturing,Australia,250,Organic Search,2024-07-01,Enterprise
+CUST0562,Wright-Davis,Marketing,Canada,1000,Partner,2024-02-01,Starter
+CUST0563,Dougherty-Lin,SaaS/Tech,Netherlands,25,Content Marketing,2024-03-01,Growth
+CUST0564,Wright-Grimes,Media,Netherlands,1000,Paid Ads,2025-01-01,Starter
+CUST0565,Li PLC,E-commerce,Brazil,5,Referral,2024-10-01,Starter
+CUST0566,"Edwards, Hines and Jimenez",FinTech,United Kingdom,10,Referral,2025-02-01,Starter
+CUST0567,"Owens, Koch and Jimenez",Media,Canada,1000,Content Marketing,2024-08-01,Starter
+CUST0568,Landry PLC,FinTech,Brazil,500,Referral,2024-03-01,Starter
+CUST0569,Levy-Lewis,E-commerce,United Kingdom,1,Referral,2024-08-01,Starter
+CUST0570,Williams-Campbell,Healthcare,Canada,1000,Paid Ads,2025-05-01,Growth
+CUST0571,"Khan, Pena and Ruiz",Real Estate,Singapore,250,Content Marketing,2024-06-01,Growth
+CUST0572,"Smith, Rodriguez and Anderson",Manufacturing,India,10,Partner,2024-10-01,Starter
+CUST0573,Luna-Gallagher,Manufacturing,USA,25,Content Marketing,2024-12-01,Growth
+CUST0574,Williams-Williams,Manufacturing,USA,25,Paid Ads,2024-06-01,Growth
+CUST0575,"Lee, Tran and Jones",FinTech,Netherlands,5,Outbound Sales,2025-03-01,Starter
+CUST0576,"Cole, Pierce and Bryan",Real Estate,Canada,500,Organic Search,2024-08-01,Starter
+CUST0577,"Becker, Wilson and Hester",Media,Singapore,100,Outbound Sales,2025-03-01,Starter
+CUST0578,Brooks-Hatfield,Manufacturing,Netherlands,5,Referral,2025-03-01,Starter
+CUST0579,"Mcmillan, Fischer and Gonzalez",Media,Netherlands,10,Partner,2024-05-01,Starter
+CUST0580,"Morales, Williams and Williams",Marketing,Netherlands,5,Partner,2025-01-01,Growth
+CUST0581,"Cook, Wells and Bryant",FinTech,Canada,50,Organic Search,2024-03-01,Starter
+CUST0582,"Barry, Taylor and Velazquez",Healthcare,Singapore,250,Content Marketing,2024-04-01,Starter
+CUST0583,Martin-Ewing,SaaS/Tech,France,250,Paid Ads,2024-10-01,Growth
+CUST0584,"Kirby, Wheeler and Romero",Logistics,India,1000,Paid Ads,2025-06-01,Growth
+CUST0585,"Patel, Erickson and Evans",Healthcare,India,100,Content Marketing,2024-12-01,Growth
+CUST0586,Richardson Ltd,Real Estate,USA,500,Paid Ads,2024-06-01,Growth
+CUST0587,Whitney PLC,Manufacturing,Singapore,1000,Partner,2024-02-01,Starter
+CUST0588,Robles-Swanson,Media,France,500,Content Marketing,2025-01-01,Growth
+CUST0589,"Soto, Carlson and Baker",SaaS/Tech,USA,25,Referral,2024-10-01,Starter
+CUST0590,"Patton, Parsons and Lane",EdTech,Singapore,50,Paid Ads,2024-10-01,Starter
+CUST0591,"Williams, Castillo and Warren",SaaS/Tech,Brazil,1000,Outbound Sales,2024-12-01,Growth
+CUST0592,"Harvey, Randall and Hernandez",FinTech,Germany,1000,Referral,2025-03-01,Starter
+CUST0593,"Allen, Armstrong and Graves",E-commerce,Brazil,1000,Paid Ads,2024-09-01,Growth
+CUST0594,Smith LLC,FinTech,Canada,50,Organic Search,2025-07-01,Enterprise
+CUST0595,Hernandez-Vaughn,Real Estate,United Kingdom,500,Organic Search,2024-06-01,Starter
+CUST0596,Shaw-Carr,EdTech,Canada,100,Partner,2024-02-01,Growth
+CUST0597,Salas-Fitzgerald,Manufacturing,India,10,Paid Ads,2025-05-01,Growth
+CUST0598,Thornton PLC,E-commerce,Netherlands,100,Outbound Sales,2024-04-01,Enterprise
+CUST0599,Hoffman Ltd,Logistics,India,100,Partner,2024-10-01,Starter
+CUST0600,Fox-Edwards,SaaS/Tech,Germany,1000,Partner,2025-06-01,Starter
