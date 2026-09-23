@@ -1,8 +1,3 @@
-"""
-Builds saas_mysql_dump.sql — a MySQL-compatible script that creates the
-`saas` database, creates the 4 tables, and inserts all the rows.
-Run this once inside MySQL Workbench to set up the database.
-"""
 import pandas as pd
 
 customers = pd.read_csv("data/customers.csv")
@@ -10,7 +5,7 @@ subscriptions = pd.read_csv("data/subscriptions.csv")
 usage = pd.read_csv("data/usage.csv")
 payments = pd.read_csv("data/payments.csv")
 
-BATCH = 500  # rows per INSERT statement, keeps statements a reasonable size
+BATCH = 500  
 
 def sql_str(v):
     if pd.isna(v):
