@@ -1,29 +1,7 @@
-/* ============================================================
-   SaaS METRICS - SQL ANALYSIS QUERIES (MySQL / MySQL Workbench version)
-   Database: saas  (created by running saas_mysql_dump.sql first)
-   Tables:
-     customers     (customer_id, company_name, industry, country,
-                     employee_size, acquisition_channel, signup_date, initial_plan)
-     subscriptions (subscription_id, customer_id, plan, mrr,
-                     start_date, end_date, status)
-     usage_data    (id, customer_id, month, logins, active_seats,
-                     support_tickets, nps_score, plan_at_time)
-     payments      (payment_id, customer_id, month, amount, status)
-
-   HOW TO RUN:
-   1. In MySQL Workbench, run saas_mysql_dump.sql FIRST (File > Open SQL
-      Script > saas_mysql_dump.sql > lightning-bolt "Execute" icon). This
-      creates the `saas` database and loads all the data.
-   2. Open this file the same way.
-   3. Run: USE saas;  then highlight any single query below and press
-      Ctrl+Enter (Cmd+Return on Mac) to run just that one, or the
-      lightning-bolt icon to run everything selected.
-   ============================================================ */
-
 USE saas;
 
 
--- 1. TOTAL CUSTOMERS, ACTIVE vs CHURNED
+
 SELECT
     status,
     COUNT(*) AS customer_count
@@ -31,7 +9,7 @@ FROM subscriptions
 GROUP BY status;
 
 
--- 2. MONTHLY RECURRING REVENUE (MRR) BY MONTH
+
 SELECT
     month,
     ROUND(SUM(amount), 2) AS mrr,
@@ -42,7 +20,7 @@ GROUP BY month
 ORDER BY month;
 
 
--- 3. MONTH-OVER-MONTH MRR GROWTH RATE
+
 WITH monthly AS (
     SELECT month, SUM(amount) AS mrr
     FROM payments
@@ -60,7 +38,7 @@ FROM monthly
 ORDER BY month;
 
 
--- 4. CUSTOMER CHURN RATE BY MONTH
+
 WITH active_start_of_month AS (
     SELECT month, COUNT(DISTINCT customer_id) AS active_customers
     FROM usage_data
@@ -82,7 +60,7 @@ LEFT JOIN churned_in_month c ON a.month = c.month
 ORDER BY a.month;
 
 
--- 5. REVENUE / CUSTOMERS BY PLAN
+
 SELECT
     plan,
     COUNT(*) AS total_subscriptions,
@@ -93,8 +71,7 @@ GROUP BY plan
 ORDER BY avg_mrr DESC;
 
 
--- 6. CUSTOMER LIFETIME VALUE (LTV) - simple estimate
--- LTV = average MRR of the plan / churn rate of the plan
+
 WITH plan_churn AS (
     SELECT
         plan,
@@ -115,7 +92,7 @@ SELECT
 FROM plan_churn pc;
 
 
--- 7. COHORT RETENTION - % of each signup-month cohort still active N months later
+
 WITH cohort AS (
     SELECT
         customer_id,
@@ -139,7 +116,7 @@ GROUP BY c.cohort_month, months_since_signup
 ORDER BY c.cohort_month, months_since_signup;
 
 
--- 8. TOP 10 CUSTOMERS BY TOTAL REVENUE PAID
+
 SELECT
     p.customer_id,
     c.company_name,
@@ -153,7 +130,7 @@ ORDER BY total_paid DESC
 LIMIT 10;
 
 
--- 9. REVENUE BY ACQUISITION CHANNEL
+
 SELECT
     c.acquisition_channel,
     COUNT(DISTINCT c.customer_id) AS customers,
@@ -165,7 +142,7 @@ GROUP BY c.acquisition_channel
 ORDER BY total_revenue DESC;
 
 
--- 10. AT-RISK CUSTOMERS (low engagement, still active) - for a retention team
+
 SELECT
     u.customer_id,
     c.company_name,
@@ -183,7 +160,7 @@ WHERE u.month = (SELECT MAX(month) FROM usage_data)
 ORDER BY s.mrr DESC;
 
 
--- 11. AVERAGE REVENUE PER ACCOUNT (ARPA) BY INDUSTRY
+
 SELECT
     c.industry,
     COUNT(DISTINCT c.customer_id) AS customers,
